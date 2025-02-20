@@ -46,6 +46,7 @@ section > div > a {
 
 div > section > figure > img {
   height: 200px;
+  width: initial;
 }
 
 figcaption {
