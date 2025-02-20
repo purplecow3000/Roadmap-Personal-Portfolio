@@ -1,0 +1,70 @@
+#pagenav {
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+#internal {
+  float: left;
+}
+
+#external {
+  float: right;
+}
+
+ul > li {
+  float: left;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+}
+
+article > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+article > div > section {
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+section > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+section > div > a {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div > section > figure > img {
+  height: 200px;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+#links{
+  border: 5px solid black;
+  margin: 10px;
+}
+
+#links > nav {
+  border-bottom: 5px solid black;
+}
+
+ul > li a {
+  padding: 10px;
+}
+
+#blank {
+  grid-area: 2 / 2 / span 3 / span 1;
+}

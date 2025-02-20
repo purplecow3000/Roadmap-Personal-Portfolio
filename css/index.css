@@ -1,0 +1,65 @@
+div {
+  width: 100%;
+  display: flex;
+}
+
+main > div {
+  border-bottom: 5px solid black;
+  display:grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+main > div > article {
+  padding: 10px;
+}
+
+main > div > article {
+  border-right: 5px solid black;
+}
+
+main > div > article:last-of-type {
+  border: initial;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+a {
+  padding: 10px;
+}
+
+#work-experience {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto 1fr 1fr;
+}
+
+#work-experience > h2 {
+  grid-column: 1 / span 2;
+}
+
+#reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#reviews > div {
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 0;
+
+}
+
+#reviews > div > section {
+  width: 350px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.gray {
+  color: gray;
+}

@@ -1,0 +1,37 @@
+div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div > section {
+  padding: 10px;
+  min-width: 500px;
+}
+
+fieldset {
+  border: 5px solid
+}
+
+fieldset > p{
+  margin: 5px 0;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input, textarea{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border: 1px solid black;
+}
+
+button {
+  background-color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+}

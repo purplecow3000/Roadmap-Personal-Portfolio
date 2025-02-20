@@ -1,0 +1,111 @@
+:root {
+  --pastel-blue: #e5e0fa;
+  --light-blue: #8c78e8;
+  --blue: #4424d6;
+  --dark-blue: #29157e;
+  --black-blue: #110934;
+}
+
+html {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--black-blue);
+}
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  background-color: var(--dark-blue);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-blue);
+  transition: background-color 0.15s;
+}
+
+a:hover {
+  background-color: var(--blue);
+}
+
+ul > li a {
+  display: block;
+  text-align: center;
+}
+
+#navbar> nav > ul> li {
+  float: left;
+}
+
+#navbar> nav> ul> li a {
+  padding: 10px 15px;
+}
+
+#navbar p {
+  padding: 10px 15px;
+  margin: 0;
+  color: var(--light-blue);
+}
+
+#heading {
+  width: 100%;
+  text-align: center;
+  background-color: var(--blue);
+}
+
+#heading > h1 {
+  font-size: 2em;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: var(--light-blue);
+}
+
+#heading > figure {
+  margin-bottom: 0;
+}
+
+#heading > figure > img {
+  width: 800px;
+  height: initial;
+}
+
+#heading > figure> figcaption {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+  color: var(--black-blue);
+}
+
+main {
+  background-color: var(--pastel-blue);
+}
+
+h2 {
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--black-blue);
+  color: var(--light-blue);
+}
