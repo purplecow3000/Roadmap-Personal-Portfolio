@@ -53,7 +53,8 @@ a {
 
 }
 
-#reviews > div > section {
+#reviews > div > div {
+  flex-direction: column;
   width: 350px;
   border: 3px solid black;
   border-radius: 5px;
